@@ -14,7 +14,10 @@ body {
     padding-top: 40px;
 }
 
-
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px;
 }
 
 h1, h2 {
@@ -71,6 +74,7 @@ p {
     color: #ddd;
 }
 
+/* --- FLEX SPLIT SECTIONS --- */
 .split {
     display: flex;
     align-items: center;
@@ -84,9 +88,11 @@ p {
 }
 
 .text-side, .visual-side {
-    flex: 1 1 400px;
+    flex: 1 1 0;
+    min-width: 0;
 }
 
+/* --- VISUAL STYLING --- */
 .flourish-embed {
     width: 100%;
 }
@@ -102,11 +108,14 @@ p {
     background: #1a1a1a;
 }
 
+/* --- FULL WIDTH VISUAL --- */
 .full-visual {
-    max-width: 1000px;
-    margin: 40px auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 40px 0;
 }
 
+/* --- REVEAL --- */
 .reveal {
     opacity: 0;
     transform: translateY(30px);
@@ -118,6 +127,7 @@ p {
     transform: translateY(0);
 }
 
+/* --- MOBILE --- */
 @media (max-width: 800px) {
     .split {
         flex-direction: column;
@@ -128,6 +138,7 @@ p {
     }
 }
 
+/* --- HEADER --- */
 .top-bar {
     position: fixed;
     top: 10px;

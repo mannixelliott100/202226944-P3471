@@ -18,12 +18,10 @@ body {
     padding: 70px 0;
 }
 
-/* SAME AS UFC */
 .container {
     max-width: 1200px;
     margin: auto;
     padding: 0 20px;
-}
 
 /* BACKGROUNDS (KEEP WWE STYLE) */
 .white { background: #fff; }

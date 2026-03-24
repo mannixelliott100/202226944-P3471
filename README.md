@@ -4,12 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Story 2 – Women’s Wrestling in the 21st Century</title>
-
 <style>
 body {
     margin: 0;
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background: #fff; /* base page background */
+    background: #fff;
     color: #222;
 }
 
@@ -23,7 +22,6 @@ body {
     font-family: Arial, sans-serif;
     z-index: 9999;
 }
-
 .top-left { position: absolute; left: 10px; }
 .top-center { text-align: center; width: 100%; }
 .top-right { position: absolute; right: 10px; top: 0; }
@@ -42,11 +40,7 @@ body {
 .section.black p { color: #ddd; }
 
 /* HEADINGS */
-h1, h2 {
-    margin: 0 0 30px 0;
-    text-align: center;
-}
-
+h1, h2 { margin: 0 0 30px 0; text-align: center; }
 h1 { font-size: 3em; font-weight: 700; }
 h2 { font-size: 1.8em; margin-bottom: 40px; }
 
@@ -64,7 +58,6 @@ p {
     width: 100%;
     flex-wrap: wrap;
 }
-
 .split.reverse { flex-direction: row-reverse; }
 
 .text-side {
@@ -103,7 +96,6 @@ p {
     transform: translateY(30px);
     transition: all 0.9s ease;
 }
-
 .reveal.visible {
     opacity: 1;
     transform: translateY(0);
@@ -111,17 +103,11 @@ p {
 
 /* RESPONSIVE */
 @media(max-width: 900px) {
-    .split {
-        flex-direction: column;
-    }
-    .text-side, .visual-side {
-        flex: 1 1 100%;
-        padding: 20px;
-    }
+    .split { flex-direction: column; }
+    .text-side, .visual-side { flex: 1 1 100%; padding: 20px; }
 }
 </style>
 </head>
-
 <body>
 
 <div class="top-bar">
@@ -134,43 +120,31 @@ p {
     <div class="top-right">STORY 2</div>
 </div>
 
-<!-- HERO SECTION -->
-<div class="section white reveal">
-    <h1>Story 2 – The Rise of Women’s Wrestling in the 21st Century</h1>
-    <p>
-Over the last 40 years, professional wrestling has become a global phenomenon. Icons like Hulk Hogan, Stone Cold Steve Austin, and The Rock brought wrestling into the mainstream, paving the way for stars like John Cena in the 21st century.
-    </p>
-    <p>
-Women’s wrestling remained underrepresented through the 90’s and 2000’s, often objectified and limited in screen time. The early 2010s saw the creation of all-female divisions, culminating in the WWE “Women’s Revolution” of 2025, which finally positioned women as main-event talents.
-    </p>
-</div>
-
-<!-- VISUAL 1 FULL WIDTH -->
+<!-- VISUAL 1 – WHITE BACKGROUND FULL WIDTH -->
 <div class="section white reveal full-visual">
     <div class="flourish-embed flourish-chart" data-src="visualisation/28024773"></div>
 </div>
+<div class="section white reveal">
+    <p>Since the 2015 “Women’s Revolution” the WWE has seen a steadily positive increase in the amount of female talent signed to the company. At the beginning of 2016 there were 39 signed female wrestlers, and by 2026 there are now 67. This shows a nearly 79% increase. These stats come from the Smackdown Hotel Roster Database.</p>
+</div>
 
-<!-- SPLIT VISUAL 2 LEFT -->
+<!-- VISUAL 2 – WHITE BACKGROUND, Visual LEFT, Text RIGHT -->
 <div class="section white reveal">
     <div class="split">
         <div class="visual-side visual-box">
             <div class="flourish-embed flourish-chart" data-src="visualisation/27677179"></div>
         </div>
         <div class="text-side">
-            <p>
-Since 2015, WWE female roster increased from 39 to 67 wrestlers by 2026. AEW launched in 2019 with its women’s division increasing from 14 to 56 in 2026.
-            </p>
+            <p>During this boom of women’s wrestling, AEW was formed in 2019. Its women’s division increased from 14 signed women in 2019 to 56 in 2026, showing a 300% growth over 7 years. These stats come from the Smackdown Hotel Roster Database.</p>
         </div>
     </div>
 </div>
 
-<!-- SPLIT VISUAL 3 BLACK RIGHT -->
+<!-- VISUAL 3 – BLACK BACKGROUND, Text LEFT, Visual RIGHT -->
 <div class="section black reveal">
     <div class="split reverse">
         <div class="text-side">
-            <p>
-Female stars like Trish Stratus, Lita, and Chyna laid the foundations for modern women’s wrestling despite the male-dominated era of the 90s and 2000s.
-            </p>
+            <p>Female stars like Trish Stratus, Lita, and Chyna broke into the main event scene despite the male-dominated era of the late 90’s and early 2000’s. They laid the foundations for modern women’s wrestling.</p>
         </div>
         <div class="visual-side visual-box">
             <div class="flourish-embed flourish-chart" data-src="visualisation/28122283"></div>
@@ -178,32 +152,31 @@ Female stars like Trish Stratus, Lita, and Chyna laid the foundations for modern
     </div>
 </div>
 
-<!-- VISUAL 4 FULL WIDTH WHITE -->
+<!-- VISUAL 4 – WHITE BACKGROUND FULL WIDTH -->
 <div class="section white reveal full-visual">
     <div class="flourish-embed flourish-chart" data-src="visualisation/28085202"></div>
 </div>
+<div class="section white reveal">
+    <p>In the 2020s, athletes like Rhea Ripley have broken out as worldwide stars. Social media metrics show 7 of the most followed active wrestlers are women as of 2026.</p>
+</div>
 
-<!-- SPLIT VISUAL 5 LEFT -->
+<!-- VISUAL 5 – WHITE BACKGROUND, Visual LEFT, Text RIGHT -->
 <div class="section white reveal">
     <div class="split reverse">
         <div class="visual-side visual-box">
             <div class="flourish-embed flourish-chart" data-src="visualisation/28087074"></div>
         </div>
         <div class="text-side">
-            <p>
-Despite growth in women’s wrestling, only 33% of WWE talent is female as of 2026.
-            </p>
+            <p>Despite the expansion of women’s wrestling, only 33% of WWE signed talent are women as of 2026. These stats come from the Smackdown Hotel Roster Database.</p>
         </div>
     </div>
 </div>
 
-<!-- SPLIT VISUAL 6 RIGHT -->
+<!-- VISUAL 6 – WHITE BACKGROUND, Text LEFT, Visual RIGHT -->
 <div class="section white reveal">
     <div class="split">
         <div class="text-side">
-            <p>
-Within AEW, women make up only 24% of the roster in 2026, highlighting ongoing inequality.
-            </p>
+            <p>Within AEW, women only make up 24% of the roster in 2026. This shows ongoing inequality in the industry.</p>
         </div>
         <div class="visual-side visual-box">
             <div class="flourish-embed flourish-chart" data-src="visualisation/27918499"></div>
@@ -211,41 +184,35 @@ Within AEW, women make up only 24% of the roster in 2026, highlighting ongoing i
     </div>
 </div>
 
-<!-- SPLIT VISUAL 7 BLACK LEFT -->
+<!-- VISUAL 7 – BLACK BACKGROUND, Visual LEFT, Text RIGHT -->
 <div class="section black reveal">
     <div class="split reverse">
         <div class="visual-side visual-box">
             <div class="flourish-embed flourish-chart" data-src="visualisation/28122168"></div>
         </div>
         <div class="text-side">
-            <p>
-Inequality is evident in match appearances and total screen time for women across WWE and AEW.
-            </p>
+            <p>Inequality is evident not just in roster ratios but also in match appearances and total screen time between men and women.</p>
         </div>
     </div>
 </div>
 
-<!-- SPLIT VISUAL 8 RIGHT -->
+<!-- VISUAL 8 – WHITE BACKGROUND, Text LEFT, Visual RIGHT -->
 <div class="section white reveal">
     <div class="split reverse">
         <div class="visual-side visual-box">
             <div class="flourish-embed flourish-chart" data-src="visualisation/28079741"></div>
         </div>
         <div class="text-side">
-            <p>
-AEW shows stagnation in women’s ring time, with minimal growth from 2022 to 2025.
-            </p>
+            <p>AEW shows stagnation in women’s ring match time, with little growth from 2022–2025.</p>
         </div>
     </div>
 </div>
 
-<!-- SPLIT VISUAL 9 BLACK RIGHT -->
+<!-- VISUAL 9 – BLACK BACKGROUND, Text LEFT, Visual RIGHT -->
 <div class="section black reveal">
     <div class="split">
         <div class="text-side">
-            <p>
-Women’s match times remain largely unchanged, reflecting slow progress in AEW.
-            </p>
+            <p>Women’s match times remain largely unchanged, reflecting slow progress in AEW.</p>
         </div>
         <div class="visual-side visual-box">
             <div class="flourish-embed flourish-chart" data-src="visualisation/28084586"></div>
@@ -262,7 +229,6 @@ const observer = new IntersectionObserver(entries => {
         }
     });
 }, { threshold: 0.2 });
-
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 </script>
 

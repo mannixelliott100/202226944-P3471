@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>WWE Story</title>
 
-<style>
+<style> 
 
 body {
     margin: 0;

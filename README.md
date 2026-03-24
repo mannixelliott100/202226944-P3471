@@ -99,7 +99,8 @@ p { font-size: 1.08em; line-height: 1.75; color: #444; margin-bottom: 25px; }
             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/21/University_of_Strathclyde_Coat_of_Arms.svg/1280px-University_of_Strathclyde_Coat_of_Arms.svg.png" alt="Strathclyde Logo">
         </a>
     </div>
-    <div class="top-right">STORY 2</div>
+   <div class="top-right">
+        <a href=" https://mannixelliott100.github.io/Story-1/">STORY 1</a>
 </div>
 
 <!-- HERO -->

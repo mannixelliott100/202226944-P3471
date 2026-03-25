@@ -26,9 +26,17 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3.2em;
     text-align: center;
     margin-bottom: 30px;
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #1e66ff;
+    text-shadow: 
+        1px 1px 0 #0d3bbf,
+        2px 2px 0 #0a2e99,
+        3px 3px 8px rgba(0,0,0,0.25);
 }
 
 h2 {
@@ -177,16 +185,24 @@ p {
 </div> 
 
 <div class="section white reveal">
-    <h1>Story 2 – The Rise of Women’s Wrestling in the 21st Century</h1>
+    <h1>The Rise of Women’s Wrestling in the 21st Century</h1>
+
     <p class="hero-text">
-Over the last 40 years, the world of professional wrestling has grown into a worldwide phenomenon which now exists as a significant part of pop culture. Icons throughout the 80’s and 90’s like Hulk Hogan, Stone Cold Steve Austin and The Rock took the industry into the mainstream appeal, being responsible for much of the legendary trivia at wrestling’s foundational roots. This would lay the groundwork for stars to take the sport into the 21st century like John Cena, becoming a household name and growing the industry massively as we entered the digital age.
+        Over the last 40 years, the world of professional wrestling has grown into a worldwide phenomenon which now exists as a significant part of pop culture. Icons throughout the 80’s and 90’s like Hulk Hogan, Stone Cold Steve Austin and The Rock took the industry into the mainstream appeal, being responsible for much of the legendary trivia at wrestling’s foundational roots. This would lay the groundwork for stars to take the sport into the 21st century like John Cena, becoming a household name and growing the industry massively as we entered the digital age.
+    </p>
 
-However, as the industry grew and evolved it remained centrally focused on its male talent where female wrestlers would be constantly undermined and misrepresented. We would see this become a recurring theme throughout the 90’s and early 2000’s with women being often objectified and receiving little match time. Women would often be valued for looks rather than in ring talent and match quality, leading to many stereotyped and misogynistic storylines. This would see a turn in the early 2010’s where an all-female division would be created to expand the WWE roster before its complete overall in “The Women’s Revolution” of 2025. This revolution would see all different types of women be featured much more prominently, being valued for their talents and unique character rather than looks and being positioned as main event talents rather than undercard acts.
+    <p class="hero-text">
+        However, as the industry grew and evolved it remained centrally focused on its male talent where female wrestlers would be constantly undermined and misrepresented. We would see this become a recurring theme throughout the 90’s and early 2000’s with women being often objectified and receiving little match time. Women would often be valued for looks rather than in ring talent and match quality, leading to many stereotyped and misogynistic storylines.
+    </p>
 
-This article will cover changes in the WWE (World Wrestling Entertainment) and recently created AEW (All-Elite Wrestling).
+    <p class="hero-text">
+        This would see a turn in the early 2010’s where an all-female division would be created to expand the WWE roster before its complete overhaul in “The Women’s Revolution” of 2025. This revolution would see all different types of women be featured much more prominently, being valued for their talents and unique character rather than looks and being positioned as main event talents rather than undercard acts.
+    </p>
+
+    <p class="hero-text">
+        This article will cover changes in the WWE (World Wrestling Entertainment) and recently created AEW (All-Elite Wrestling).
     </p>
 </div>
-
 <div class="section white reveal">
     <h2 class="center-heading">Timeline of Women’s Wrestling</h2>
     <div class="visual-box full-visual">
